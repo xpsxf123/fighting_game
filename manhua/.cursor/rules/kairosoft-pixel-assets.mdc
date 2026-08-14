@@ -1,0 +1,17 @@
+---
+description: 本项目任何贴图/美术资源生成任务必须先读 kairosoft-pixel-assets skill
+---
+
+# 贴图生成强制规范
+
+凡涉及 `dashu-town/assets/` 下贴图的**新建、重做、替换、批量出图**，必须先阅读并严格执行：
+
+**`.cursor/skills/kairosoft-pixel-assets/SKILL.md`**
+
+禁止跳过 skill 直接用 Pillow 程序化像素充当终稿（除非用户明确要求占位）。
+
+流程摘要：
+1. 读 skill → 按「省额度批次表」规划 GenerateImage 次数
+2. GenerateImage 出母图 → 落 `_ai_src/`
+3. `python dashu-town/assets/_process_ai_kairo.py` 衍生与接入
+4. Ctrl+F5 验收

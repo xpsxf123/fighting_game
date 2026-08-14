@@ -1,0 +1,11 @@
+<view class="wrap">
+  <canvas
+    type="2d"
+    id="game"
+    class="canvas"
+    bindtouchstart="onTouchStart"
+    bindtouchmove="onTouchMove"
+    bindtouchend="onTouchEnd"
+    bindtouchcancel="onTouchEnd"
+  ></canvas>
+</view>

@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "pack": "S1",
+  "root": "dashu-town/assets",
+  "terrain": {
+    "0": "terrain/tile_grass.png",
+    "1": "terrain/tile_dirt.png",
+    "2": "terrain/tile_water.png",
+    "soil_farm": "terrain/tile_soil_farm.png"
+  },
+  "buildings": {
+    "1": "roads/road_dirt.png",
+    "2": "buildings/env_vacant_lot.png",
+    "3": "buildings/house_hut.png",
+    "4": "buildings/env_field.png",
+    "4_stage": [
+      "buildings/env_field.png",
+      "buildings/env_field_grow1.png",
+      "buildings/env_field_grow2.png",
+      "buildings/env_field_grow3.png"
+    ],
+    "5": "buildings/shop_noodle.png",
+    "6": "buildings/shop_wonton.png",
+    "7": "buildings/shop_hotpot.png",
+    "8": "buildings/env_park.png",
+    "9": "buildings/env_wholesaler.png",
+    "constructing": "buildings/house_build.png",
+    "demolish": "buildings/env_remove_hammer.png"
+  },
+  "characters": {
+    "farmer": "characters/job_farmer.png",
+    "artisan": "characters/job_artisan.png",
+    "merchant": "characters/job_merchant.png"
+  },
+  "ui": {
+    "panel": "ui/ui_panel.png",
+    "topbar": "ui/ui_topbar.png",
+    "dialog": "ui/ui_dialog.png",
+    "btn": "ui/ui_btn_normal.png",
+    "btn_pressed": "ui/ui_btn_pressed.png",
+    "icon_build": "ui/ui_btn_icon_build.png",
+    "icon_menu": "ui/ui_btn_icon_menu.png",
+    "icon_people": "ui/ui_btn_icon_people.png",
+    "icon_combo": "ui/ui_btn_icon_combo.png",
+    "money": "ui/icon_money.png",
+    "yield": "ui/icon_yield.png",
+    "tax": "ui/icon_tax.png",
+    "research": "ui/icon_research.png",
+    "speed1": "ui/icon_speed1.png",
+    "speed2": "ui/icon_speed2.png",
+    "speed3": "ui/icon_speed3.png",
+    "pause": "ui/icon_pause.png",
+    "ghost_ok": "ui/ui_ghost_ok.png",
+    "ghost_bad": "ui/ui_ghost_bad.png",
+    "combo_badge": "ui/ui_combo_badge.png"
+  },
+  "fx": {
+    "coin": "fx/fx_coin_pop.png",
+    "rp": "fx/fx_rp_pop.png",
+    "combo": "fx/fx_combo_stars.png",
+    "dust": "fx/fx_build_dust.png",
+    "tax_rain": "fx/fx_tax_rain.png"
+  }
+}

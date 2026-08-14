@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "pack": "S2",
+  "root": "dashu-town/assets",
+  "buildings": {
+    "10": "buildings/fac_castle.png",
+    "11": "buildings/house_thatched.png",
+    "12": "buildings/house_tile.png",
+    "13": "buildings/env_well.png",
+    "14": "buildings/shop_tea.png",
+    "15": "buildings/shop_rice.png"
+  },
+  "characters": {
+    "warrior": "characters/job_warrior.png",
+    "warrior_walk": "characters/job_warrior_walk.png"
+  },
+  "notes": "生成：python _gen_s2_assets.py && python _process_sprites.py"
+}

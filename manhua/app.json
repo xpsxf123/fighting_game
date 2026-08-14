@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/game/game"
+  ],
+  "window": {
+    "navigationBarTitleText": "大蜀国物语",
+    "navigationBarBackgroundColor": "#3E2723",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#FFF8E1"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

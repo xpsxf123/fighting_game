@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "pack": "S3",
+  "root": "dashu-town/assets",
+  "buildings": {
+    "16": "buildings/fac_inn.png",
+    "17": "buildings/fac_stable.png",
+    "18": "buildings/fac_hot_spring.png",
+    "19": "buildings/fac_arena.png"
+  },
+  "notes": "生成：python _gen_s3_assets.py && python _process_sprites.py"
+}
